@@ -1,0 +1,51 @@
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+.small-image {
+  width: 150px;
+}
+
+.page-header.main-header {
+  margin: 0px 0px 30px !important;
+}
+
+.page-top {
+  margin: 0;
+}
+
+body {
+  color: #464646 !important;
+}
+
+.oldnews {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.navbar-banner {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-image: url("../assets/img/scanning-exlg.jpg");
+  background-size: 100%;
+  }
+.jumbotron h2{
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (max-width : 992px) {
+  .jumbotron {
+  background-image: url("../assets/img/scanning-xmd.jpg");
+  }
+}
+
+@media only screen and (max-width : 500px) {
+    .jumbotron {
+  background-image: url("../assets/img/scanning-xsm.jpg");
+  }
+
+}

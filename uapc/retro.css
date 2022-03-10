@@ -1,0 +1,100 @@
+/* http://codepen.io/edadams/details/qblJI */
+
+body {
+  background: #008080 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arial',sans-serif;
+}
+
+p {
+    font-family: 'Lucida Console',monospace;
+}
+
+li {
+    font-family: 'Lucida Console',monospace;
+}
+
+.window .wide {
+  max-width: none;
+}
+
+.window {
+  margin-top: 20px;
+  font-family: 'Arial',sans-serif;
+  background: #c0c0c0;
+  border: 1px solid;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #000;
+  border-bottom-color: #000;
+}
+
+.window > .inner {
+  border: 1px solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+}
+
+.window .header {
+  margin: 2px 2px 0;
+  padding: 1px 2px;
+  color: #fff;
+  background: linear-gradient(to right, #000080, #1084d0);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.window.description .header {
+  background: #000080;
+}
+
+
+
+.window.description .header > .buttons {
+  background-position: -35px 0;
+  width: 15px;
+  height: 14px;
+}
+
+.window .actions {
+  margin: 5px 9px;
+  line-height: 1;
+  color: #000;
+  font-size: 11px;
+}
+
+.window .content {
+  margin: 0 2px 2px 2px;
+  border: 1px solid;
+  border-top-color: #808080;
+  border-left-color: #808080;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  font-size: 13px;
+}
+
+.window .content > .inner {
+  background: #fff;
+  border: 1px solid;
+  border-top-color: #000;
+  border-left-color: #000;
+  border-bottom-color: #dfdfdf;
+  border-right-color: #dfdfdf;
+  padding: 7px 10px;
+}
+
+.window.description .content,
+.window.description .content > .inner {
+  margin: 0;
+  border: 0;
+  background: transparent;
+}
+
+p {
+  margin: 0;
+}
